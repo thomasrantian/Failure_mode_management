@@ -73,7 +73,7 @@ https://people.eecs.berkeley.edu/~jfisac/papers/General_Safe_Learning.pdf -->
     - This paper considers learning a controller online for UAV to track reference trajectory. The reachable set based method is used to ensure safety under the condition where the approximated model is correct. The fault in the learning process is defined as the model mismatch between the real system and the approximated model. An additional safety controller and Bayesian filter is used to handle the faults. Bayesian filter detects the faults and safety controller is triggered to ensure safety.
 
 
-+ [Robust Tracking with Model Mismatch for Fast and Safe Planning: an SOS Optimization Approach](Effective fault-tolerant control paradigm for path tracking in autonomous vehicles)
++ [Robust Tracking with Model Mismatch for Fast and Safe Planning: an SOS Optimization Approach](https://arxiv.org/abs/1808.00649)
     
     - Fault is modeled as model mismatch between the model (reduced-order) used to generate the motion plan and the system’s model; trajectory-independent tracking error bound is computed based on the sum of squares programming and is accounted in the path planning to ensure safety.
 
@@ -89,7 +89,7 @@ https://people.eecs.berkeley.edu/~jfisac/papers/General_Safe_Learning.pdf -->
 # Simulation tools we have
 
 
-### Carla simulator
+## [Carla simulator](https://github.com/carla-simulator/carla)
 
 We can model
 
@@ -98,14 +98,14 @@ We can model
 * Vehicle platooning and muli-vehicle
 
 
-### Fetch Robot simulator
+## [Fetch Robot simulator](https://docs.fetchrobotics.com/manipulation.html)
 
 We can model
 
 * Sensor measurements
 
 
-### CarSim
+## [CarSim](https://www.carsim.com/products/carsim/index.php)
 
 We can model
 
