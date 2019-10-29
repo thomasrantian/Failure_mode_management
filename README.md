@@ -41,12 +41,18 @@ https://people.eecs.berkeley.edu/~jfisac/papers/General_Safe_Learning.pdf -->
 
     - Brakes, motors and steering are controlled simultaneously using an adaptive control allocation strategy; the strategy shows safe performance under tire traction force faults.
 
+
+## UAV propeller faults
+
++ [Recoverable set computation for post-fault/failure quadrotors based on sum of squares](https://ieeexplore.ieee.org/document/7739731)
+
+    - One or more UAV propeller fails; Recoverable set is used to evaluate whether a quadrotor can be stabilized to the relaxed hover solution when fault/failure occurs.
+
 + [Vibration-Based Propeller Fault Diagnosis for Multicopters](https://ieeexplore.ieee.org/document/8453400)
 
     - Only faults detection; detecting faults (physical damage to a propeller) in a multicopter’s motor/propeller by analysis of the vibration spectrum measured by accelerometer (under pre-defined flight trajectories).
 
-
-## UAV propeller faults
+## Underwater vehicle thruster faults
 
 + [A Model-based Active Fault Tolerant Control Scheme for a Remotely Operated Vehicle](https://www.sciencedirect.com/science/article/pii/S240589631832384X)
 
@@ -110,9 +116,12 @@ We can model
 
 * Full sensor readings (Lidar, radar, IMU, etc.)
 
+![](media/kidnapped_robot.gif)
+
 ## [CarSim](https://www.carsim.com/products/carsim/index.php)
 
 We can model
 
 * Vehicle dynamics
 
+![](media/rollover.gif)
