@@ -93,21 +93,26 @@ https://people.eecs.berkeley.edu/~jfisac/papers/General_Safe_Learning.pdf -->
 
 We can model
 
-* Sensor measurements for AV, including (Lidar, radar, camera)
+* AV interacts with human-driven vehicles
 
-* Vehicle platooning and muli-vehicle
+* Vehicle platooning 
+
+* Full sensor readings (Lidar, radar, IMU, etc.)
 
 
 ## [Fetch Robot simulator](https://docs.fetchrobotics.com/manipulation.html)
 
 We can model
 
-* Sensor measurements
+* Robot navigation
 
+* Robot manipulation
+
+* Full sensor readings (Lidar, radar, IMU, etc.)
 
 ## [CarSim](https://www.carsim.com/products/carsim/index.php)
 
 We can model
 
-* Vehicle dynamics 
+* Vehicle dynamics
 
