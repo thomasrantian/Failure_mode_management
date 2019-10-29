@@ -105,6 +105,7 @@ We can model
 
 * Full sensor readings (Lidar, radar, IMU, etc.)
 
+![](media/carla.gif)
 
 ## [Fetch Robot simulator](https://docs.fetchrobotics.com/manipulation.html)
 
